@@ -1,0 +1,157 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Tablas</title>
+<style type="text/css">
+	/*table,th,td{
+		border-collapse: collapse;
+	}*/
+	
+	table{
+		color: goldenrod;
+		border: solid 1px #121111;
+		margin: 0px auto;
+		width: 960px;
+		padding: 30px;
+		text-align: center;
+		background-color: #272D2F;
+	}
+	h2, footer{
+		margin: 0px auto;
+		width: 960px;
+		padding: 30px;
+		background-color: #F2F2F2;
+	}
+	#t01, #t01 th, #t01 td{
+		color: #4AD195;
+		border: solid 1px #000000;
+		border-collapse: collapse;
+	}
+	h1{
+		margin: 0px auto;
+		width: 960px;
+		padding: 30px;
+		background-color: #FE724C;
+	}
+	main{
+			height: auto;
+			background-color: #F6EFB5
+</style>
+</head>
+
+<body>
+	<header>
+		<h1>Tablas en html</h1>
+	</header>
+	<nav></nav>
+	<main>
+	  <section>
+			<h2>Tabla simple</h2>
+			<table border="1">
+				<thead>
+					<tr>
+						<th>Nombre</th>
+						<th>Email</th>
+						<th>Telefono</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Victoria Morgado</td>
+						<td>victoria.n23@hotmail.com</td>
+						<td>2223456789</td>
+					</tr>
+					<tr>
+						<td>Jesus Perez</td>
+						<td>jesus_p@yahoo.com</td>
+						<td>2224546786</td>
+					</tr>
+					<tr>
+						<td>Karla Rodriguez</td>
+						<td>karlita.45@gmail.com</td>
+						<td>2223433233</td>
+					</tr>
+					<tr>
+						<td>Ali Barbosa</td>
+						<td>ali-b87@outlook.com</td>
+						<td>2227856783</td>
+					</tr>
+					<tr>
+						<td>Enrique Pacheco</td>
+						<td>enrique-pacheco.33@gmail.com</td>
+						<td>2225674565</td>
+					</tr>
+				</tbody>
+			</table>
+</section>
+	  <section>
+		<h2>Tabla simple con bordes contraidos</h2>
+			<table id="t01" border="1">
+			  <thead>
+			    <tr>
+			      <th>Nombre</th>
+			      <th>Email</th>
+			      <th>Telefono</th>
+		        </tr>
+		      </thead>
+			  <tbody>
+			    <tr>
+			      <td>Victoria Morgado</td>
+			      <td>victoria.n23@hotmail.com</td>
+			      <td>2223456789</td>
+		        </tr>
+			    <tr>
+			      <td>Jesus Perez</td>
+			      <td>jesus_p@yahoo.com</td>
+			      <td>2224546786</td>
+		        </tr>
+			    <tr>
+			      <td>Karla Rodriguez</td>
+			      <td>karlita.45@gmail.com</td>
+			      <td>2223433233</td>
+		        </tr>
+			    <tr>
+			      <td>Ali Barbosa</td>
+			      <td>ali-b87@outlook.com</td>
+			      <td>2227856783</td>
+		        </tr>
+			    <tr>
+			      <td>Enrique Pacheco</td>
+			      <td>enrique-pacheco.33@gmail.com</td>
+			      <td>2225674565</td>
+		        </tr>
+		      </tbody>
+	    </table>
+		</section>
+		<section>
+			<h2>Tabla que abarca varias columnas</h2>
+			<table>
+				<thead>
+					<tr><th>Nombre</th><th>Edad</th>
+					<th colspan="2">Telefonos</th>
+					</tr></thead>
+				<tbody>
+					<tr>
+						<td>Maria Guadalupe Perez</td>
+				<td>20</td>
+						<td>222 256 4567</td>
+						<td>2227893456</td>
+					</tr>
+				<tr>
+					<td>Josue Perez Rocha</td>
+					<td>18</td>
+					<td>222 2335643</td>
+					<td>2223118904</td>
+				</tr></tbody>
+				<tfoot></tfoot>
+			</table>
+		
+		</section>
+	</main>
+	<footer>
+		<h5>Elaborado por Eduardo Vargas Hernández</h5>
+	
+	</footer>
+</body>
+</html>

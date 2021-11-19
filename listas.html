@@ -1,0 +1,185 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Listas</title>
+	<style>
+		}
+		header,main,nav{
+			margin: 0px auto;
+			width: 960px;
+			padding: 30px;
+		}
+		header{
+			
+			height: 50px;
+			background-color: #F8E265;
+			
+			text-align: center;
+		}
+		nav{
+			height: 30px;
+			background-color: #DBD21
+			
+		}
+		main{
+			height: auto;
+			background-color: #B86933
+		}
+		section{
+			
+			width: 760px;
+			background-color: #89A380;
+			margin: 30px auto;
+			color: #F8E265;
+			padding: 50px;
+		}
+		footer, h5{
+			
+			width: 760px;
+			background-color: aliceblue;
+			margin: 3px auto;
+			color: dimgrey;
+			padding: 20px;
+		}
+
+	</style>
+	
+</head>
+
+<body>
+	<header>
+	<h1>Listas en HTML</h1>
+	</header>
+	<nav></nav>
+	<main>
+		<section>
+	<h2>Listas ordenada: Revision de errores cometidos en la redacción</h2>
+			<ol>
+			<li>Organizacion</li>
+				<li>Exaptitud de transcripciones</li>
+				<li>Cuestiones Gramaticales</li>
+				<li>Formatos</li>
+			</ol>
+	</section>
+	<section>
+	<h2>Listas desordenadas: Lista de super</h2>
+		<ul>
+		<li>Pasta de dientes</li>
+				<li>Shampoo</li>
+				<li>Jabon de tocador</li>
+			<li>Sopas</li>
+				<li>Lata de frutas</li>
+				<li>Pollo</li>
+		</ul>
+	</section>
+	<section>
+		<h2>Lista Mixta: Geografica</h2>
+		<ul>
+			<li>Argentina
+					<ul>
+						<li>Buenos Aires</li>
+						<li>Rio de la plata</li>
+						<li>Belgrano</li>
+				</ul>
+			</li>
+			<li>Bolibia</li>
+			<ul>
+						<li>Estado</li>
+						<li>Estado</li>
+						<li>Estado</li>
+						<li>Estado</li>
+						<li>Estado</li>
+				</ul>
+			
+			<li>Mexico
+					<ul>
+						<li>Aguascalientes</li>
+						<li>Baja California Sur</li>
+						<li>Colima</li>
+						<li>Durango</li>
+						<li>Puebla</li>
+				</ul>
+			</li>
+			<li>España</li>
+			<ul>
+						<li>Madrid</li>
+						<li>Valencia</li>
+						<li>Sevilla</li>
+						<li>Mallorca</li>
+						<li>Granada</li>
+				</ul>
+			<li>Italia
+					<ul>
+						<li>Venecia</li>
+						<li>Florencia</li>
+						<li>Roma</li>
+				</ul>
+			</li>
+		</ul>
+	</section>
+		<section>
+		<h2>Listas de descripcion</h2>
+			<dl>
+				<dt>Usabilidad</dt>
+				<dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus amet, magnam officia temporibus hic quas error, placeat velit consequuntur fuga.</dd>
+				<dt>Accesibilidad</dt>
+				<dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, nulla aliquam totam corrupti. Tenetur deleniti neque consequuntur in dolores nulla repudiandae mollitia, fugit ab. Aperiam.</dd>
+				<dt>Servidor web</dt>
+				<dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non amet accusamus similique provident a, voluptates quae quasi praesentium et, impedit ab excepturi est itaque odit! Ipsam tenetur molestias consequatur quae.</dd>
+				<dt>Hosting</dt>
+				<dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium a cum, quisquam provident aspernatur ducimus. Soluta, reprehenderit! Obcaecati, nobis, pariatur?</dd>
+				<dt>Dominio</dt>
+				<dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi ipsa ullam veritatis. Optio quasi labore, illo officia, veritatis assumenda temporibus tempora non quos amet dolore.</dd>
+			</dl> 
+		</section>
+		<section>
+			<h2>Uso de atributo <b>type</b>para definir viñeta de lista en HTML</h2>
+			<h3>Alfabetico: A,a</h3>
+			<ol type="a">
+				<li>Brenda Degollado</li>
+				<li>Alfonso Juarez</li>
+				<li>Juan Romero</li>
+			</ol>
+			<h3>Romanos: I,i</h3>
+			<ol type="I">
+				<li>Brenda Degollado</li>
+				<li>Alfonso Juarez</li>
+				<li>Juan Romero</li>
+			</ol>
+			<h3>Figura: circle, squere, disc</h3>
+			<ul type="square">
+				<li>Brenda Degollado</li>
+				<li>Alfonso Juarez</li>
+				<li>Juan Romero</li>
+			</ul>
+		</section>
+		<section>
+			<h2>Uso de la propiedades CSS para modificacion de viñetas</h2>
+			<h3>Uso de la propiedad <strong>list-style-type</strong> de CSS para cambiar viñetas</h3>
+			<ul style="list-style-type:georgian">
+				<li>Cafe</li>
+				<li>Leche</li>
+				<li>Pan</li>
+				<li>Atun</li>
+				<li>Frijoles</li>
+			</ul>
+				<h3>Uso de la propiedad <strong>list-style-type</strong> de CSS para cambiar viñeta por imagen personalizada</h3>
+			<ul style="list-style-image:url('../img/dom.png')">
+			<li>Delfin</li>
+				<li>Morsa</li>
+				<li>Ballena</li>
+			</ul>
+				<h3>Eliminar viñetas de lista</h3>
+				<ul style="list-style-type: none">
+				<li>Gato</li>
+				<li>Leo</li>
+				<li>Tigre</li>
+			</ul>
+		</section>
+		</main>
+	<footer>
+		<h5>Elavorado por Eduardo Vargas Hernández</h5>
+	</footer>
+</body>
+</html>

@@ -1,0 +1,134 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Formularios</title>
+</head>
+<link href="../css/style_one.css" rel="stylesheet" type="text/css">
+<body>
+	<header>
+		<h1>Formularios en HTML</h1>
+	</header>
+	<nav>
+	<ol>
+<li><a href="mi_primera_pagina.html">Mi Primera Pagina</a></li>
+<li><a href="listas.html">Listas</a></li>
+<li><a href="tablas.html">Tablas</a></li>
+<li><a href="enlaces.html">Enlaces</a></li>
+<li><a href="imagenes.html">Imagenes</a></li>
+<li><a href="audio.html">Audio</a></li>
+<li><a href="animacion.html">Animación</a></li>
+<li><a href="formulario.html">Formulario</a></li>
+</ol>
+	</nav>
+	
+	<main>
+		<section>
+			<h2>Formulario Básico</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, vel.</p>
+			
+			<form action="gracias.html" method="get" target="new" autocomplete="off">
+				<label>Nombre:</label>
+				<input type="text"><br><br>
+				<label>Apellido:</label>
+				<input type="text"><br><br>
+					<input type="submit" value="Enviar"></form>
+		</section>
+		
+		<section>
+			<h2>Formulario con lista desplegable</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, vel.</p>
+			<form action="gracias.html" method="get" target="new" autocomplete="off">
+				<label for="nombre" id="nombre">Nombre</label>
+				<input type="text"><br><br><br>
+				<label for="pais">País:</label>
+				<select id="pais" name="pais">
+				<option value="mx">México</option>
+				<option value="es">España</option>
+				<option value="it">Italia</option>
+				<option value="co">Colombia</option>
+				<option value="ar">Argentina</option>
+				</select><br><br><br>
+				<label for="nombre" id="visita">¿Qué países haz visitado?</label>
+				<select id="pais" name="pais" size="5" multiple>
+				<option value="mx">México</option>
+				<option value="es">España</option>
+				<option value="it">Italia</option>
+				<option value="co">Colombia</option>
+				<option value="ar">Argentina</option>
+				</select><br><br><br>
+				<input type="submit" value="Enviar">
+				</form>
+		</section>
+		
+		<section>
+			<h2>Formulario Correo</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, vel.</p>
+			<form action="gracias.html" method="get" target="new" autocomplete="off">
+				<table width="50%" border="0">
+  <tbody>
+    <tr>
+      <td><label>Nombre:</label></td>
+      <td><input type="text"></td>
+    </tr>
+	  <td><label>Correo electronico:</label></td>
+      <td><input type="email" id="correo" name="correo"></td>
+    </tr>
+    <tr>
+      <td><label for="mensaje">Mensaje</label></td>
+      <td><textarea name=mensaje>Escribe tu mensaje</textarea></td> 
+    </tr>
+	
+  </tbody>
+</table>
+		<input type="submit" value="Enviar"></form>
+		</section>
+		
+		<section>
+			<h2>Formulario utilizando varios tipos de inputs</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, vel.</p>
+			<form action="gracias.html" method="get" target="new" autocomplete="off">
+				<label for="name">Nombre:</label>
+				<input type="text" id="nombre" name="nombre"><br><br><br>
+				<label for="nacimiento">Fecha de nacimiento:</label>
+				<input type="date" id="nacimiento" name="nacimiento"><br><br><br>
+				<label for="genero">Genero:</label>
+				<input type="radio" id="genero" name="genero" value="femenino"><label>Femenino</label>
+				<input type="radio" id="genero" name="genero" value="masculino"><label>Masculino</label><br><br><br>
+				<label for="musica">Elige de la lista los generos que mas te gusten</label><br><br><br>
+				<input type="checkbox" id="musica" name="musica" value="rock"><label>Rock</label>
+				<input type="checkbox" id="musica" name="musica" value="jazz"><label>Jazz</label>
+				<input type="checkbox" id="musica" name="musica" value="alternativa"><label>Alternativa</label>
+				<input type="checkbox" id="musica" name="musica" value="pop"><label>Pop</label>
+				<input type="checkbox" id="musica" name="musica" value="blues"><label>Blues</label><br><br><br>
+			
+				<input type="submit" value="Enviar"></form>
+			
+		</section>
+
+
+
+<section>
+			<h2>Ejercicios</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, vel.</p>
+			<form action="gracias.html" method="get" target="new" autocomplete="off">
+				
+				<label for="contrasena">1.- Contraseña:</label>
+				<input id="contrasena" name="contrasena" type="password"><br><br><br>
+				<label for="celular">2.- Telefono Celular</label>
+				<input id="cel" name="cel" type="tel"><br><br><br>
+				<label for="web">3.- ¿Que tan satisfactoria es esta web?</label>
+				<label>0</label><input id="rang" name="rang" type="range"><label>100</label><br><br><br>
+				<label for="hora">4.- ¿A que hora navega en la web?</label>
+				<input id="time" name="time" type="time"><br><br><br>
+				<label>5.- Seleccione su color favorito</label>
+				<input id="colores" name="colores" type="color"><br><br><br>
+				<input type="submit" value="Enviar"></form>
+			
+		</section>
+	</main>
+	<footer>
+		<h5>Elaborado por: Eduardo Vargas Hernández</h5>
+	</footer>
+</body>
+</html>
